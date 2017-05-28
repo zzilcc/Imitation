@@ -4,16 +4,23 @@
     padding: 0px;
     font-size: 12px;
 }
-html {
+html
+{
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-body {
+body
+{
   margin: 0;
 }
 div{
     display: block;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
 }
 /*顶部导航*/
 .header
@@ -106,6 +113,7 @@ div{
 {
     background: url(../img/btn02.png) no-repeat;
 }
+/*模块一：app功能介绍（1）*/
 .box1
 {
     background: #fff;
@@ -154,7 +162,7 @@ div{
     width: 246px;
     margin: 0 auto;
 }
-/*app功能介绍（2）*/
+/*模块二：app功能介绍（2）*/
 .box2
 {
     height: 610px;
@@ -195,4 +203,62 @@ div{
     width: 505px;
     text-align: center;
     position: relative;
+}
+/*模块三：团队介绍及反馈*/
+.box3
+{
+    text-align: center;
+    height: 545px;
+}
+.box3 .wrap p
+{
+    word-wrap: break-word;
+}
+.box3 .wrap .txt
+{
+    font-size: 18px;
+    line-height: 30px;
+}
+.box3 .wrap .clearfix
+{
+    display: block;
+}
+.box3 .wrap ul
+{
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.box3 .wrap ul li
+{
+    display: inline-block;
+    zoom: 1;
+    vertical-align: text-top;
+    padding: 0 60px;
+    width: 200px;
+}
+.box3 .wrap ul li .thumb
+{
+    margin-bottom: 30px;
+}
+.box3 .wrap ul li h2
+{
+    font-size: 23px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+.box3 .wrap ul li p
+{
+    font-size: 17px;
+    color: #999;
+}
+/*网页底部*/
+.footer
+{
+    text-align: center;
+    background: #242638;
+    padding: 18px 0;
+    color: #9b9db5;
+    line-height: 24px;
 }
