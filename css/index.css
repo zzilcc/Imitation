@@ -15,6 +15,7 @@ body {
 div{
     display: block;
 }
+/*顶部导航*/
 .header
 {
     height: 65px;
@@ -33,6 +34,7 @@ div{
     float: left;
     margin-top: 10px;
 }
+/*导航菜单*/
 .menu
 {
     float: right;
@@ -51,8 +53,6 @@ div{
 {
     text-decoration: none;
     display: block;
-    /*align-items: center;
-    justify-content: center;*/
     padding: 0 18px;
     font-size: 15px;
     line-height: 65px;
@@ -60,4 +60,49 @@ div{
 .menu li a:hover
 {
     transform: scale(2);
+}
+/*导航下的下载显示*/
+.banner
+{
+    background: url(../img/bg1.png) repeat;
+}
+.banner .wrap
+{
+    height: 613px;
+    background: url(../img/banner_bg.png) repeat;
+    position: relative;
+}
+.banner .wrap .inner
+{
+    text-align: center;
+    padding-top:66px;
+}
+.pa
+{
+    position: relative;
+}
+.banner .wrap .inner .img
+{
+    text-align: left;
+    padding-left: 85px;
+}
+.banner .wrap .inner .btngroup
+{
+    position: absolute;
+    right:60px;
+    top:300px;
+}
+.banner .wrap .inner .btngroup a
+{
+    display: block;
+    width: 223px;
+    height: 57px;
+}
+.banner .wrap .inner .btngroup .btn1
+{
+    background: url(../img/btn01.png) no-repeat;
+}
+.banner .wrap .inner .btngroup .btn2
+{
+    background: url(../img/btn02.png) no-repeat;
 }
