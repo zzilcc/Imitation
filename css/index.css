@@ -106,3 +106,51 @@ div{
 {
     background: url(../img/btn02.png) no-repeat;
 }
+.box1
+{
+    background: #fff;
+    color: #886300;
+}
+.box1 .wrap
+{
+    position: relative;
+    height: 610px;
+}
+.box1 .wrap .inner
+{
+    padding-top:0;
+}
+.box1 .wrap .inner h1
+{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.box1 .wrap .inner .box1_h1:before
+{
+    top:0;
+    opacity: 0;
+    font-size: 20px;
+}
+.box1 .wrap .inner .box1_h1:after
+{
+    top:28;
+    opacity: 1;
+    font-size: 70px;
+}
+.box1 .wrap  .inner .left-pic
+{
+    position: absolute;
+    height: 97px;
+    widows: 97px;
+}
+.box1 .wrap .inner .right-pic
+{
+    position: absolute;
+    height: 125px;
+    widows: 125px;
+}
+.box1 .wrap  .inner .img {
+    text-align: center;
+    width: 246px;
+    margin: 0 auto;
+}
